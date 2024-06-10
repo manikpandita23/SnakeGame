@@ -43,3 +43,4 @@ def game_over ():
      pygame.display.flip()
 
      time.sleep(2)
+     pygame.quit()
