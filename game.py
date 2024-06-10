@@ -16,3 +16,4 @@ pygame.init()
 
 pygame.display .set_caption("Snake SIM")
 game_window = pygame.display.set_mode((window_x, window_y))
+fps = pygame.time.Clock()
