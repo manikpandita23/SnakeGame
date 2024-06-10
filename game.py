@@ -35,4 +35,4 @@ def show_score (choice, color, font, size):
     game_window.blit(score_surface, score_rect)
 
 def game_over ():
-    
+     my_font = pygame.font.SysFont('times new roman', 50)
