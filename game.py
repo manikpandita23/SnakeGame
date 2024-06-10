@@ -37,3 +37,4 @@ def show_score (choice, color, font, size):
 def game_over ():
      my_font = pygame.font.SysFont('times new roman', 50)
      game_over_surface = my_font.render('Your Score is : ' + str(score), True, red)
+     game_over_rect = game_over_surface.get_rect()
