@@ -41,3 +41,5 @@ def game_over ():
      game_over_rect.midtop = (window_x/2, window_y/4)
      game_window.blit(game_over_surface, game_over_rect)
      pygame.display.flip()
+
+     time.sleep(2)
