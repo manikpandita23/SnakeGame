@@ -25,3 +25,5 @@ fruit_spawn = True
 
 direction = 'RIGHT'
 change_to = direction
+
+score = 0
