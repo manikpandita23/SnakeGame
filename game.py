@@ -39,3 +39,5 @@ def game_over ():
      game_over_surface = my_font.render('Your Score is : ' + str(score), True, red)
      game_over_rect = game_over_surface.get_rect()
      game_over_rect.midtop = (window_x/2, window_y/4)
+     game_window.blit(game_over_surface, game_over_rect)
+     pygame.display.flip()
