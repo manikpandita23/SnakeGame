@@ -33,3 +33,6 @@ def show_score (choice, color, font, size):
     score_surface = score_font.render('Score : ' + str(score), True, color)
     score_rect = score_surface.get_rect()
     game_window.blit(score_surface, score_rect)
+
+def game_over ():
+    
