@@ -27,3 +27,6 @@ direction = 'RIGHT'
 change_to = direction
 
 score = 0
+
+def show_score (choice, color, font, size):
+    
