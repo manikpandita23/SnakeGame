@@ -101,3 +101,5 @@ while True:
             game_over()
         
         show_score(1, white, 'times new roman', 20)
+
+        pygame.display.update()
