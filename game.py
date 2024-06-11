@@ -89,4 +89,9 @@ while True:
         for pos in snake_body:
             pygame.draw.rect(game_window, green, pygame.Rect(pos[0], pos[1],10, 10))
         pygame.draw.rect(game_window, white, pygame.Rect(fruit_position[0], fruit_position[1], 10, 10))
-        
+
+
+        if snake_position[0] < 0 or snake_position[0] > window_x-10:
+          game_over()
+        if snake_position[1] < 0 or snake_position[1] > window_y-10: 
+          game_over()
